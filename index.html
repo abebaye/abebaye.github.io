@@ -1,20 +1,281 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comforter&family=Lobster&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+
+
+    <script src="https://kit.fontawesome.com/4ef87b411f.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/style.css">
-    <title>Hello, world!</title>
+    <!-- Font Awesome -->
+    <title>Furniture</title>
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <!-- header section  start-->
+    <header>
+        <div class="container-fluid ">
+            <nav class="navbar navbar-expand-xxl  fixed-top  navbar-dark "
+                style="background-color: rgba(13, 13, 14, 0.73)">
+                <div class="container ">
+                    <h3><a class=" nav-link text-white " href="#">
+                            <h1 class=" btn-outline-secondary text-white moqups1">Modern
+                                Furniture</h1>
+                        </a>
+                    </h3>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"> </span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ">
+                            <h5><a class=" nav-link active" href="#aboutUs"><button type="button"
+                                        class="btn  btn-outline-secondary text-white">ABOUT US</button></a></h5>
+                            <h5><a class=" nav-link active" target="_blank" href="home.html"><button type="button"
+                                        class="btn btn-outline-secondary text-white">HOME</button></a></h5>
+                            <h5><a class=" nav-link active " href="#location"><button type="button"
+                                        class="btn btn-outline-secondary text-white">TERM & POLICY</button></a></h5>
+                            <h5><a class=" nav-link active " href="#location"><button type="button"
+                                        class="btn btn-outline-secondary text-white">LOCTION</button></a></h5>
+                            <h5><a class=" nav-link active" href="#contact"><button type="button"
+                                        class="btn btn-outline-secondary text-white">CONTACT US</button> </a></h5>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header section  end-->
+    <!-- carousel section  start-->
+    <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+          
+        </div>
+        <div class="carousel-inner ">
+            <div class="carousel-item active">
+                <img src="img/banners/banner-7.jpg" width="100%" height="" class="d-block w-100  " alt="...">
+                <div class="carousel-caption d-none d-md-block jumbo1 home-hero-banner">
+
+                    <h1 class="avia-caption-title jumbo " itemprop="name">Quality & affordable Furniture for the Whole
+                        Home.</h1>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <img src="img/banners/banner-2.jpg" width="100%" height="" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block jumbo1">
+                    <h1 class="avia-caption-title  jumbo " itemprop="name">Quality &
+                        affordable Furniture for the Whole Home.</h1>
+                </div>
+            </div>
+            <div class="carousel-item jumbo2">
+                <img src="img/banners/banner-0.jpg" width="100%" height="" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block jumbo1">
+
+                    <h1 class="avia-caption-title jumbo " itemprop="name">Quality & affordable
+                        Furniture for the Whole Home.</h1>
+                </div>
+            </div>
+            
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"><a href="#" class="next">Next &raquo;</a></span>
+        </button>
+    </div>
+    <!-- carousel section  end-->
+
+    <!-- parallex start -->
+    <div id="aboutUs" class=" kichen-cabinet ">
+        <div class="col d-flex flex-column bd-highlight align-items-center  ">
+            <div class="container bd-highlight p-5 text-light my-5 text-center parallex"
+                style="background-color: rgba(0, 0, 0, 0.644)">
+                <p class="paragraph">Looking for a better way to buy furniture? Modern Furniture gathers thousands of
+                    quality pieces in one place to make
+                    browsing, comparing and coordinating simpler than ever. Our curated collection of sofas,office,
+                    dining tables, bedroom
+                    sets, patio furniture, accents and more will connect you with just what you want in a snap.
+                </p>
+                <p class="paragraph1">We gather a variety of styles from the top names in furniture to help you achieve
+                    your design goals.
+                    Check out our broad
+                    assortment of well-crafted, fashion-forward decor with choices sure to suit your tastes. Shoppers
+                    searching for looks
+                    from classic to contemporary will find what they want in our diverse furniture store.</p>
+                <button class="p-2 text-light border rounded " style="background-color: rgba(15, 1, 1, 0.73)">SHOP
+                    NOW</button>
+            </div>
+        </div>
+        <!-- parallex end -->
+
+
+       
+    </div>
+
+    <!-- row section  start-->
+    <section id="products" style="background-color: rgba(172, 168, 168, 0.7)">
+        <div class="container p-5 mx-auto">
+
+            <div class="row ">
+                <div class="col-md-6 col-lg-3 text-center ">
+                    <img src="img/Dining&Kichen/kichen-12.jpg" alt="" class="mw-100 rounded-3 p-2 ">
+                    <h5 class="p-2 text-light border text-center rounded"
+                        style="background-color: rgba(29, 25, 25, 0.73)">DINING & KICHEN</h5>
+                    <button class=" text-light border  rounded btn btn-outline-secondary  "
+                        style="background-color: rgba(15, 1, 1, 0.73)">SHOP NOW</button>
+
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <img src="img/Livingroom/living-9.jpg" alt="" class="mw-100 rounded -3 p-2">
+                    <h5 class="p-2 text-light border text-center rounded"
+                        style="background-color: rgba(29, 25, 25, 0.73)">LIVING ROOM</h5>
+                    <button class=" text-light border rounded btn" style="background-color: rgba(15, 1, 1, 0.73)">SHOP
+                        NOW</button>
+
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <img src="img/Office/office-2.jpg" alt="" class="mw-100 rounded -3 p-2">
+                    <h5 class="p-2 text-light border text-center rounded"
+                        style="background-color: rgba(29, 25, 25, 0.73)">OFFICE</h5>
+                    <button class=" text-light border rounded btn" style="background-color: rgba(15, 1, 1, 0.73)">SHOP
+                        NOW</button>
+
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <img src="img/Outdoor/outdoor-1.jpg" alt="" class="mw-100 rounded -3 p-2">
+                    <h5 class="p-2 text-light border text-center rounded "
+                        style="background-color: rgba(29, 25, 25, 0.73)">OUTDOOR</h5>
+                    <button class="  text-light border rounded btn" style="background-color: rgba(15, 1, 1, 0.73)">SHOP
+                        NOW</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section start -->
+    <footer ID="contact" class="bg-orange text-center text-white mx-auto" style="background-color: rgb(27, 27, 27)">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="container-fluid my-3">
+                        <h5 class="text-danger">Sign up to get 15% discount on your first purchase</h5>
+                        <form class="row g-3 needs-validation  " novalidate>
+                            <div class="col-12">
+                                <label for="validationCustom01" class="form-label">First name</label>
+                                <input type="text" class="form-control" id="validationCustom01" placeholder="First name"
+                                    required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label for="validationCustom02" class="form-label">Last name</label>
+                                <input type="text" class="form-control" id="validationCustom02" placeholder="Last name"
+                                    required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label for="validationCustomUsername" class="form-label">Email</label>
+                                <div class="input-group has-validation">
+
+                                    <input type="text" class="form-control" id="validationCustomUsername"
+                                        placeholder="info@example.com" aria-describedby="inputGroupPrepend" required>
+                                    <div class="invalid-feedback">
+                                        Please choose a username.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <button class="btn btn-secondary" type="submit">Submit form</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 py-4">
+                    <div class="container p-2">
+                        <section class="mb-4">
+                            <h5>FOLLOW US</h5>
+                            <ul class="list-unstyled">
+                                <li><a class="btn btn-outline-light btn-floating m-1 my-3"
+                                        href="https://www.facebook.com/" role="button"><i
+                                            class="fab fa-facebook-f "></i></a></li>
+                                <li><a class="btn btn-outline-light btn-floating m-1 my-3" href="https://twitter.com/"
+                                        role="button"><i class="fab fa-twitter "></i></a></li>
+                                <li><a class="btn btn-outline-light btn-floating m-1 my-3"
+                                        href="https://www.instagram.com/" role="button"><i
+                                            class="fab fa-instagram "></i></a></li>
+                                <li><a class="btn btn-outline-light btn-floating m-1 my-3"
+                                        href="https://www.figma.com/file/iiwuYfYcaPVauuV3lUx2Oa/MFW-Final-Project-Wirefram?node-id=0%3A1"
+                                        role="button"> Wirefarm<i class=""></i></a></li>
+
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 py-4">
+
+                    <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <p><i class="fas fa-home mr-3 my-3"></i> San Jose,CA 10012, US</p>
+                        </li>
+                        <li>
+                            <p><i class="fas fa-envelope mr-3 my-3"></i> info@example.com</p>
+                        </li>
+                        <li>
+                            <p><i class="fas fa-phone mr-3 my-3"></i> + 01 234 567 89</p>
+                        </li>
+                        <li>
+                            <p><i class="fas fa-print mr-3 my-3"></i> + 01 234 567 89</p>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            ©️ 2022:
+            <a class="text-white" href="abebayealeme.com">Abebaye A </a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- footer end -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -25,9 +286,10 @@
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEH61eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
 </body>
 
 </html>
+<!-- hover-overlay hover-zoom hover-shadow ripple -->
