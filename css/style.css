@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* .jumbo2{
+    position: relative;
+    z-index: -5;
+} */
+.moqups1 {
+ font-family: 'Lobster', cursive;
+
+}
+.jumbo1{
+    position: absolute;
+    background-color: rgba(3, 27, 70, 0.596);
+    width: 80%;
+    height: 100px;
+    z-index: 5;
+}
+.jumbo {
+  font-family: "Lobster", cursive;
+  color: rgb(240, 234, 234);
+  font-size: 35px;
+  z-index: -1;
+}
+
+.kichen-cabinet {
+  background-image: url("../img/banners/banner-6.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+.parallex {
+  width: 55%;
+}
+.paragraph{
+    font-size: 20px;
+    font-weight: 500;
+    
+    
+}
+.paragraph1{
+font-size: 15px;
+font-weight: 400;
+}
+
+
+
+
+/* home  */
+
+
+
+.banner-1{
+    height: 600px;
+    position: relative;
+}
+.baner-3{
+    height: 600px;
+}
+.baner-4{
+     height: 800px;     
+     background-position: bottom;
+    
+}
+.banner4{
+    margin-bottom: 10px;
+}
+.trip{
+        /* margin:360px auto; */
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Lobster', cursive;
+        height: 200px;
+        width: 500px;
+        background-color: cadetblue;
+    }
+
+
+    
