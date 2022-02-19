@@ -77,6 +77,23 @@ font-weight: 400;
         width: 500px;
         background-color: cadetblue;
     }
+ /* overlay */
 
+    .animation{
+  position: relative; 
+  
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0;  
+  opacity: 0;
+  transition: .5s ease; 
+ cursor: pointer;
+}
+
+.animation:hover .overlay {
+  opacity: 1;
+}
 
     
